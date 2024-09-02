@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.insert {
+    display: flex;
+    column-gap: 3em;
+    align-items: center;
+    width: 100%;
+    padding: 1em; /* Optional for better spacing */
+}
+
+.dynamicDiv {
+    padding: 1em;
+    background-color: rgb(15, 4, 99);
+    width: 10%; /* Adjust as needed to fit side by side */
+    border: none;
+    border-radius: 1em;
+    color: white;
+    margin-top: 2em;
+    text-align: center;
+}
