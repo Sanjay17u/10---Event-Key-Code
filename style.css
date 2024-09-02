@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    width: 30%;
+    background-color: rgb(2, 11, 83);
+    margin: 10em auto;
+    border-radius: 1em;
+    border: none;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; 
+}
+
+input{
+    height: 2em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+    border-radius: 1em;
+    border: none;
+    padding: 1em;
+    width: 100%;
+    margin-bottom: 1em; 
+    width: calc(100% - 1em);
+}
+
+input::placeholder {
+    padding-left: 1em;
+    margin-left: 1em;  
+
+}
+
+.button__add{
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    background-color: rgb(3, 124, 3);
+    color: rgb(243, 241, 241);
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+}
+
+.button__add:hover {
+    background-color: rgb(94, 154, 4);
+}
+
+.button__remove{
+    border: none;
+    padding: 0.5em 2em;
+    border-radius: 1em;
+    color: rgb(243, 241, 241);
+    background-color: rgb(241, 3, 3);
+    cursor: pointer;
+    width: 40%;
+    text-align: center;
+
+}
+
+.button__remove:hover{
+    background-color: rgb(170, 5, 5);
+}
+
+.container__buttons{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+
